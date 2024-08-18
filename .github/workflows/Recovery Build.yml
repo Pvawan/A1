@@ -22,9 +22,9 @@ on:
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
-        default: 'device/asus/I003D'
+        default: 'device/samsung/a34x'
       COMMON_TREE_URL:
-        description: 'COMMON_TREE_URL (if no common tree, leave blank)'
+        description: 'https://github.com/Pvawan/D1.git'
         required: false
       COMMON_PATH:
         description: 'COMMON_PATH (if no common tree, leave blank)'
