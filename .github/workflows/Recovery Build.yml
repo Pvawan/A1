@@ -50,7 +50,7 @@ jobs:
       contents: write
     steps:
     - name: Display Run Parameters
-      run: |
+      run: 
         echo "::group::User Environment Variables"
         echo "Manifest URL: ${{ github.event.inputs.MANIFEST_URL }}"
         echo "Manifest Branch: ${{ github.event.inputs.MANIFEST_BRANCH }}"
