@@ -12,9 +12,9 @@ on:
         required: true
         default: 'twrp-12.1'
       DEVICE_TREE_URL: 'https://github.com/Pvawan/D1.git'
-        description: 'DEVICE_TREE_URL'
+        description: 'https://github.com/Pvawan/D1.git'
         required: true
-        default: 'https://github.com/TeamWin/android_device_asus_I003D'
+        default: 'https://github.com/Pvawan/D1.git'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
@@ -54,7 +54,7 @@ jobs:
         echo "::group::User Environment Variables"
         echo "Manifest URL: ${{ github.event.inputs.MANIFEST_URL }}"
         echo "Manifest Branch: ${{ github.event.inputs.MANIFEST_BRANCH }}"
-        echo "Device Tree URL: ${{ github.event.inputs.DEVICE_TREE_URL }}"
+        echo "Device Tree URL: ${{ https://github.com/Pvawan/D1.git }}"
         echo "Device Tree Branch: ${{ github.event.inputs.DEVICE_TREE_BRANCH }}"
         echo "Device Path: ${{ github.event.inputs.DEVICE_PATH }}"
         echo "Device Name: ${{ github.event.inputs.DEVICE_NAME }}"
@@ -168,4 +168,5 @@ jobs:
           Device: ${{ github.event.inputs.SAMSUNG }}
           Target: ${{ github.event.inputs.RECOVERY }}.img
       env:
+      
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
