@@ -6,7 +6,7 @@ on:
       MANIFEST_URL:
         description: 'MANIFEST_URL'
         required: true
-        default: 'git@github.com:devhunter1/android_device_samsung_a34x.git'
+        default: 'https://github.com/devhunter1/android_device_samsung_a34x.git'
       MANIFEST_BRANCH:
         description: 'MANIFEST_BRANCH'
         required: true
