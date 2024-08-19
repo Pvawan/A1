@@ -10,7 +10,7 @@ on:
       MANIFEST_BRANCH:
         description: 'MANIFEST_BRANCH'
         required: true
-        default: 'twrp-12.1'
+        default: 'android-12.1'
       DEVICE_TREE_URL: 
         description: 'DEVICE_TREE_URL'
         required: true
@@ -24,9 +24,9 @@ on:
         required: true
         default: 'device/samsung/a34x'
       COMMON_TREE_URL:
-        description: 'https://github.com/Pvawan/D1.git'
+        description: 'https://github.com/devhunter1/android_device_samsung_a34x.git'
         required: false
-      COMMON_PATH:
+      COMMON_PATH: 
         description: 'COMMON_PATH (if no common tree, leave blank)'
         required: false
       DEVICE_NAME:
